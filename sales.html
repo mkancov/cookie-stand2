@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Salmon Cookies</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <!--Add any fonts into here-->
+                <body>
+                <header>
+                    <h1>Pat's Salmon Cookies</h1>
+                    <nav>
+                        <img src="https://codefellows.github.io/code-201-guide/curriculum/class-06/lab/assets/salmon.png" alt="Salmon logo">
+                        <a href="index.html">Home Page</a> 
+                        <a href="sales.html">Cookie Sales</a>
+                    </nav>
+                </header>
+                <main>
+                    <table id="store-table"></table>
+
+                    <form>
+                        <fieldset>
+                            <legend>Enter New Location</legend>
+                            <Label>Location Name
+                                <Input type="text" pattern="[a-zA-Z][a-zA-Z0-9\s]*" name="location" required>
+                         </Label>
+                         <label>Max Customers
+                            <input type="number" name="maxcust" required>
+                         </label>
+                         <label>Min Customers
+                            <input type="number" name="mincust" required>
+                         </label>
+                         <label>Average Cookies Per Customer
+                            <input type="Number" step=".1" name="avgcookies" required>
+                         </label>
+                         <button type="submit">Submit</button>
+                        </fieldset>
+                    </form>
+                </main>
+                <footer>
+
+                </footer>
+                <script src="app.js"></script>
+
+                 </body>
+                 </html>
